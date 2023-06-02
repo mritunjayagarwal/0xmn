@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: Trailer;
+    src: url(../Hamberger-Bold.ttf);
+  }
+
 html{
     max-width: 100%;
     overflow-x: hidden;
@@ -11,7 +16,13 @@ html{
 }
 
 body{
-    background: #436476;
+    background: #eee;
+}
+
+h1, h2{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 2px 2px 4px #000000;
+    color: #fff !important;
 }
 
 .abs-img{
@@ -77,16 +88,7 @@ section{
     padding: 2rem;
     border: 2px solid #000;
     color: #000;
-    background: #fff;
     text-align: center;
-    background: #fff;
     border-radius: 30px;
-}
-
-.toke-item-contract{
-
-}
-
-.contract{
-    
+    background: #6CB9A9;
 }
