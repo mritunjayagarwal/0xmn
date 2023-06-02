@@ -84,11 +84,14 @@ section{
     color: #fff;
 }
 
-.toke-item, .toke-item-contract{
+.toke-item, .toke-item-contract, .toke-item-uni{
     padding: 2rem;
     border: 2px solid #000;
     color: #000;
     text-align: center;
     border-radius: 30px;
+}
+
+.toke-item-uni{
     background: #6CB9A9;
 }
